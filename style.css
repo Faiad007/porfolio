@@ -555,6 +555,19 @@ color: #333;
 .skill h3{
   font-size: x-small;
 }
+.contacts{
+  grid-template-areas: 
+  "c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1"
+  "c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2";
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.form input{
+  width: 70vw;
+}
+.form textarea{
+  width: 70vw;
+}
 
 }
 @media (max-width:510px){
@@ -622,7 +635,7 @@ color: #333;
 @media (max-width:310px){
   .container{
       
-    grid-template-rows: 50px 300px 450px 650px 950px 750px 750px 100px;
+    grid-template-rows: 50px 250px 450px 650px 950px 750px 750px 100px;
    
   }
   
@@ -635,3 +648,19 @@ color: #333;
       "b b b b b b b b . . . ."; 
     }
   }
+  @media (max-width:280px){
+    .container{
+        
+      grid-template-rows: 50px 250px 450px 700px 950px 750px 750px 100px;
+     
+    }
+    
+      .hleft{
+        margin-left: 115%;
+      }
+      .skill{
+        grid-template-areas: 
+        "f f f f f f f . . . . ."
+        "b b b b b b b . . . . ."; 
+      }
+    }
