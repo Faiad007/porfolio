@@ -595,7 +595,7 @@ color: #333;
 @media (max-width:450px){
 .container{
     
-  grid-template-rows: 50px 350px 450px 650px 700px 700px 700px 100px;
+  grid-template-rows: 50px 350px 450px 700px 700px 700px 700px 100px;
  
 }
  
