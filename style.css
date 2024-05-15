@@ -573,7 +573,7 @@ color: #333;
 @media (max-width:510px){
   .container{
     
-    grid-template-rows: 50px 400px 450px 650px 650px 800px 750px 100px;
+    grid-template-rows: 50px 400px 450px 700px 650px 800px 750px 100px;
     grid-template-areas: 
       ". . . . . . h . . . . l"
       ". c c c c c c c c . . ."
