@@ -106,6 +106,54 @@ text-transform: uppercase;
     .menu h3{
       font-size: 30px;
     }
+    .animatedtext span{
+      position: relative;
+    }
+    .animatedtext span::before{
+      content: "abc";
+      color: #e6e612;
+      animation: words 20s infinite;
+    }
+    .animatedtext span::after{
+      content: "";
+      position: absolute;
+      width: calc(100% + 10px);
+      height: 100%;
+      background-color: rgb(1, 1, 35);
+      border-left: 2px solid #e6e612;
+      right:-10px ;
+      animation: cursor .8s infinite, typing 20s steps(14) infinite;
+    }
+    @keyframes cursor{
+     to {border-left: 2px solid rgb(1, 1, 35);
+      
+      }
+    }
+    @keyframes words{
+      0%,20% {
+        content: "web designer";
+       }
+       21%,40% {
+        content: "frontend developer";
+       }
+       41%,60% {
+        content: "backendend developer";
+       }
+       61%,80% {
+        content: "fullstack developer";
+       }
+       81%,100% {
+        content: "system engineer";
+       }
+     }
+     @keyframes typing{
+      10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+      }
+      5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 10px);
+      }
+     }
     .space{
         grid-area: x;
     }
@@ -470,7 +518,7 @@ color: aliceblue;
   }
   .container{
     
-    grid-template-rows: 50px 400px 450px 600px 650px 850px 750px 100px;
+    grid-template-rows: 50px 400px 450px 600px 700px 850px 750px 100px;
     grid-template-areas: 
       ". . . . . . h . . . . l"
       ". . c c c c c c c c c c"
