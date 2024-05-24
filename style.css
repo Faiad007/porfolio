@@ -589,7 +589,7 @@ color: #333;
 @media (max-width:600px){
   .container{
     
-    grid-template-rows: 50px 400px 450px 650px 650px 800px 750px 100px;
+    grid-template-rows: 50px 400px 450px 750px 650px 800px 800px 100px;
     grid-template-areas: 
       ". . . . . . h . . . . l"
       ". c c c c c c c c c c ."
@@ -621,7 +621,7 @@ color: #333;
 @media (max-width:510px){
   .container{
     
-    grid-template-rows: 50px 400px 450px 700px 650px 800px 750px 100px;
+    grid-template-rows: 50px 400px 450px 800px 650px 800px 800px 100px;
     grid-template-areas: 
       ". . . . . . h . . . . l"
       ". c c c c c c c c . . ."
@@ -643,7 +643,7 @@ color: #333;
 @media (max-width:450px){
 .container{
     
-  grid-template-rows: 50px 350px 450px 700px 700px 700px 700px 100px;
+  grid-template-rows: 50px 350px 450px 800px 700px 700px 800px 100px;
  
 }
  
@@ -667,7 +667,7 @@ color: #333;
 @media (max-width:355px){
 .container{
     
-  grid-template-rows: 50px 300px 450px 700px 850px 750px 750px 100px;
+  grid-template-rows: 50px 300px 450px 800px 850px 750px 750px 100px;
  
 }
 
@@ -683,7 +683,7 @@ color: #333;
 @media (max-width:310px){
   .container{
       
-    grid-template-rows: 50px 250px 450px 700px 950px 750px 750px 100px;
+    grid-template-rows: 50px 250px 450px 800px 950px 750px 750px 100px;
    
   }
   
@@ -699,7 +699,7 @@ color: #333;
   @media (max-width:280px){
     .container{
         
-      grid-template-rows: 50px 250px 450px 750px 950px 750px 750px 100px;
+      grid-template-rows: 50px 250px 450px 850px 950px 750px 750px 100px;
      
     }
     
